@@ -1,0 +1,236 @@
+.div-left{
+    width: 20%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.492);
+    overflow: hidden;
+    
+  }
+  .font600{
+    font-weight: 600;
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+   
+  
+  }
+  .div-right{
+    width: 80%;
+    height:auto;
+    overflow-y: auto;
+    max-height: 100vh;
+  
+  }
+  .div-right::-webkit-scrollbar{
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(73, 176, 80, 0.721);
+    border-radius: 20px;
+  }
+  
+  
+  .navbar{
+    border-top-left-radius: 0.5rem ;
+    border-top-right-radius: 0.5rem ;
+    background-color: rgba(0, 0, 0, 0.492);
+    
+  }
+  .first,.second
+  {
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+   
+  }
+  .small{
+    color: grey;
+  }
+  .small:hover{
+    text-decoration: underline;
+  }
+  .div-sub1>a:hover{
+    background-color: rgba(28, 194, 16, 0.638);
+    padding-left: 0.3rem;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+
+  }
+  .div-sub2>a:hover
+  {
+    background-color: rgba(28, 194, 16, 0.638);
+    
+    border-radius: 0.2rem;
+    padding-left: 0.3rem;
+    transition: 0.5s;
+  }
+  
+  .d-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-shrink:1 ;
+  }
+  
+  
+  .card{
+    
+    width: 20%;
+    height: 20rem;
+    color: aliceblue;
+    background-color: rgba(6, 6, 6, 0);
+    margin: 0rem 0.5rem;
+    padding: 2rem;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .bg-lightdark{
+    margin: 1px;
+    background-color: rgba(50, 49, 49, 0.641);
+  }
+  .bg-lightdark:hover{
+    margin: 1px;
+    background-color: rgba(87, 84, 84, 0.641);
+  }
+  h2{
+    color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+  }
+  .div-left-middle{
+    overflow-y: auto;
+    max-height: 15rem;
+  }
+  .div-left-middle::-webkit-scrollbar{
+    width:3px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(66, 163, 79, 0.741);
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+  .imgheight{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+  }
+  .imgheightsm{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit:cover;
+  }
+
+  .bgblack{
+    
+    background-color: rgba(43, 41, 41, 0.522);
+  }
+  .div-sub1,.div-sub2{
+    
+    background-color: rgba(0, 0, 0, 0.364); 
+  }
+  .left-bottom{
+  
+  
+    background-color: rgba(43, 41, 41, 0.522);
+    height: 100vh;
+    overflow: hidden;
+  }
+  .div-bottom>span{
+    margin: 0.5rem;
+    font-size: small;
+    color: rgb(161, 156, 156);
+  }
+  .div-bottom>span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  .left-top{
+  height: 20vh;
+  }
+  .grey{
+    color: grey;
+  }
+  .grey:hover{
+    color: white;
+  }
+  .card:hover{
+    background: rgba(7, 7, 7, 0.734);
+  
+    transition: 0.7s;
+  }
+  .card>h6{
+    margin-bottom: 1rem;
+  }
+  .card>a{
+    margin: 0.3rem;
+  }
+  .right-main>.card:hover a{
+    border-bottom: 1px solid white;
+  
+  }
+
+  .text-end{
+    font-size: medium;
+    font-weight: 300;
+    text-align: right;
+ 
+    
+  }
+  
+ 
+  .playicon{
+    display: none;
+    position: absolute;
+  right: 10%;
+  }
+  .card:hover .playicon{
+    display:block
+  }
+  
+  .first {
+    overflow-x:auto;
+    overflow-y: hidden;
+  }::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(11, 11, 10);
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(64, 216, 17);
+  }
+ 
+  .card-icons{
+    
+    width: 20%;
+    height: 20rem;
+    color: aliceblue;
+    background-color: rgba(6, 6, 6, 0);
+    margin: 0rem 0.5rem;
+    padding: 2rem;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+ 
